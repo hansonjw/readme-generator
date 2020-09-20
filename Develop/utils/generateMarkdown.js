@@ -48,8 +48,8 @@ function generateMarkdown(data) {
   ${licenses[data.license]}
   
   ## Questions:  
-  For questions, comments, suggestions, I can be reached at the following
-  ${data.github}
+  For questions, comments, suggestions, I can be reached at the following  
+  ${data.github}  
   ${data.email}
 `;
 }
