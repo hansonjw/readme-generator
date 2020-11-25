@@ -1,5 +1,5 @@
 # t4st  
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]
+![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
 
 ## Description:  
 tt
@@ -25,7 +25,7 @@ t
 This application is covered under the following license...
 GNU AGPLv3  
 For more information on the license click on the badge below:
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]
+![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
 
 ## Questions:
 For questions, comments, suggestions, I can be reached at the following  
