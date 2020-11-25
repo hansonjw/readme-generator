@@ -20,39 +20,26 @@ function generateMarkdown(data) {
 
 
   return `# ${data.title}  
-${licenseBadge}
-
+[${licenseBadge}]
 ## Description:  
 ${data.description}
-
 ## Table of Contents:
-[Installation Instructions](#Installation:)
-
-[How to use This Application:](#How-To:)
-
-[How to Contibute:](#Contibute:)
-
-[License Information:](#License:)
-
-[Questions:](#Questions:)
-
-
+[Installation Instructions](#installation)
+[How to use This Application:](#how-to)
+[How to Contibute:](#contribute)
+[License Information:](#license)
+[Questions:](#questions)
 ## Installation
-
 ${data.installation}
-
 ## How-To:
 ${data.usage}
-
 ## Contribute:
 ${data.contributing}
-
 ## License:
 This application is covered under the following license...
 ${data.license}  
 For more information on the license click on the badge below:
-${licenses[data.license]}
-
+[${licenses[data.license]}]
 ## Questions:
 For questions, comments, suggestions, I can be reached at the following  
 ${data.github}  
