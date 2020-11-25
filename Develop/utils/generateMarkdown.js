@@ -20,38 +20,38 @@ function generateMarkdown(data) {
 
 
   return `# ${data.title}  
-  ${licenseBadge}
+${licenseBadge}
 
-  ## Description:  
-  ${data.description}
+## Description:  
+${data.description}
 
-  ## Table of Contents:
-  [Installation Instructions](#Installation:)
-  [How to use This Application:](#How-To:)
-  [How to Contibute:](#Contibute:)
-  [License Information:](#License:)
-  [Questions:](#Questions:)
-  
-  <a name="Installation:">## Installation:</a>
-  
-  ${data.installation}
-  
-  <a name="How-To:">## How-To: </a>
-  ${data.usage}
+## Table of Contents:
+[Installation Instructions](#Installation:)
+[How to use This Application:](#How-To:)
+[How to Contibute:](#Contibute:)
+[License Information:](#License:)
+[Questions:](#Questions:)
 
-  <a name="Contribute:">## Contribute:  </a>
-  ${data.contributing}
+## Installation
 
-  <a name="License:">## License:</a>
-  This application is covered under the following license...
-  ${data.license}  
-  For more information on the license click on the badge below:
-  ${licenses[data.license]}
-  
-  <a name="Questions:">## Questions: </a>
-  For questions, comments, suggestions, I can be reached at the following  
-  ${data.github}  
-  ${data.email}
+${data.installation}
+
+## How-To:
+${data.usage}
+
+## Contribute:
+${data.contributing}
+
+## License:
+This application is covered under the following license...
+${data.license}  
+For more information on the license click on the badge below:
+${licenses[data.license]}
+
+## Questions:
+For questions, comments, suggestions, I can be reached at the following  
+${data.github}  
+${data.email}
 `;
 }
 
