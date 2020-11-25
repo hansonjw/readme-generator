@@ -25,10 +25,10 @@ ${licenseBadge}
 ${data.description}
 ## Table of Contents
 [Installation Instructions](#installation)
-[How to use This Application:](#how-to)
-[How to Contibute:](#contribute)
-[License Information:](#license)
-[Questions:](#questions)
+[How to use This Application](#how-to)
+[How to Contibute](#contribute)
+[License Information](#license)
+[Questions](#questions)
 ## Installation
 ${data.installation}
 ## How-To
@@ -39,7 +39,7 @@ ${data.contributing}
 This application is covered under the following license...
 ${data.license}  
 For more information on the license click on the badge below:
-[${licenses[data.license]}]
+${licenses[data.license]}
 ## Questions
 For questions, comments, suggestions, I can be reached at the following  
 ${data.github}  
