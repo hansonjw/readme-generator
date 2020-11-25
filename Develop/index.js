@@ -75,7 +75,7 @@ const writeToFile = (fileName, answersObj) => {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then(answers=>writeToFile('README.md', answers))
+    .then(answers=>writeToFile('./output/README.md', answers))
     .then(writeFileResponse => {
         console.log(writeFileResponse.message);
     })

@@ -26,28 +26,29 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents:
-  * [Installation Instructions](#Installation:)
-  * [How to use This Application:](#How-To:)
-  * [How to Contibute:](#Contibute:)
-  * [License Information:](#License:)
-  * [Questions:](#Questions:)
+  [Installation Instructions](#Installation:)
+  [How to use This Application:](#How-To:)
+  [How to Contibute:](#Contibute:)
+  [License Information:](#License:)
+  [Questions:](#Questions:)
   
-  ## Installation:  
+  <a name="Installation:">## Installation:</a>
+  
   ${data.installation}
   
-  ## How-To:  
+  <a name="How-To:">## How-To: </a>
   ${data.usage}
 
-  ## Contribute:  
+  <a name="Contribute:">## Contribute:  </a>
   ${data.contributing}
 
-  ## License:  
+  <a name="License:">## License:</a>
   This application is covered under the following license...
   ${data.license}  
   For more information on the license click on the badge below:
   ${licenses[data.license]}
   
-  ## Questions:  
+  <a name="Questions:">## Questions: </a>
   For questions, comments, suggestions, I can be reached at the following  
   ${data.github}  
   ${data.email}

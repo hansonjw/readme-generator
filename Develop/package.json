@@ -1,14 +1,23 @@
 {
-  "name": "static-site",
+  "name": "team-info",
   "version": "1.0.0",
-  "description": "",
+  "description": "No license is applicable for this application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Justin Hanson",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hansonjw/team-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hansonjw/team-info/issues"
+  },
+  "homepage": "https://github.com/hansonjw/team-info#readme"
 }
