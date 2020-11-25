@@ -1,25 +1,25 @@
-# YET ANOTHER TEST!!!  
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# TEST TEST  
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]
 ## Description
-asdf
+TEST
 ## Table of Contents
-[Installation Instructions](#installation)
-[How to use This Application](#how-to)
-[How to Contibute](#contribute)
-[License Information](#license)
-[Questions](#questions)
+[Installation Instructions](#installation)  
+[How to use This Application](#how-to)  
+[How to Contibute](#contribute)  
+[License Information](#license)  
+[Questions](#questions)  
 ## Installation
-test
+t
 ## How-To
-test
+t
 ## Contribute
-test
+t
 ## License
 This application is covered under the following license...
-Mozilla Public License 2.0  
+GNU AGPLv3  
 For more information on the license click on the badge below:
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]
 ## Questions
 For questions, comments, suggestions, I can be reached at the following  
-test  
-test
+t  
+t

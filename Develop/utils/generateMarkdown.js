@@ -1,7 +1,6 @@
 // function to generate markdown for README
 
 const licenses = {
-  'GNU AGPLv3': '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]',
   'GNU GPLv3':'[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
   // 'GNU LGPLv3':,
   'Mozilla Public License 2.0': '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
@@ -9,6 +8,7 @@ const licenses = {
   'MIT License':'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
   // 'Boost Software License 1.0':,
   'The Unlicense': '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)',
+  'GNU AGPLv3': '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]',
   'No License': 'No license is applicable for this application'
   };
 
@@ -24,11 +24,11 @@ ${licenseBadge}
 ## Description
 ${data.description}
 ## Table of Contents
-[Installation Instructions](#installation)
-[How to use This Application](#how-to)
-[How to Contibute](#contribute)
-[License Information](#license)
-[Questions](#questions)
+[Installation Instructions](#installation)  
+[How to use This Application](#how-to)  
+[How to Contibute](#contribute)  
+[License Information](#license)  
+[Questions](#questions)  
 ## Installation
 ${data.installation}
 ## How-To
